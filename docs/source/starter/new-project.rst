@@ -323,7 +323,7 @@ You can also add a forward method to do predictions however you want.
             return embedding
 
     autoencoder = LitAutoEncoder()
-    autoencoder = autoencoder(torch.rand(1, 28 * 28))
+    embedding = autoencoder(torch.rand(1, 28 * 28))
 
 
 .. code-block:: python
